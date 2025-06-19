@@ -1,77 +1,149 @@
+
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Pré-venda - SUPERATENTO NT40</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Superatento Rastreamento</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      text-align: center;
-      background-color: #f4f4f4;
+      background-color: #eef2f7;
       margin: 0;
-      padding: 20px;
+      padding: 0;
     }
-
+    header {
+      background-color: #fff;
+      text-align: center;
+      padding: 40px 20px 20px;
+    }
     .logo {
-      max-width: 300px;
-      margin: 20px auto;
+      max-width: 180px;
     }
-
-    .container {
-      background: white;
-      padding: 30px;
-      border-radius: 12px;
-      max-width: 600px;
-      margin: auto;
-      box-shadow: 0 0 20px rgba(0,0,0,0.1);
-    }
-
     h1 {
-      color: #e53935;
-      font-size: 24px;
+      color: #ff6a00;
+      margin-top: 20px;
     }
-
-    p {
+    p.intro {
       color: #333;
-      font-size: 16px;
-      line-height: 1.6;
+      font-size: 18px;
+      max-width: 600px;
+      margin: 10px auto;
     }
-
-    .botao {
-      background-color: #e53935;
-      color: white;
-      padding: 15px 25px;
-      font-size: 16px;
-      border: none;
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #0077cc;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li {
+      margin-bottom: 10px;
+      font-size: 17px;
+    }
+    .plans {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .plan {
+      background-color: #fff;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 250px;
+    }
+    .testimonial, .faq-item {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 15px;
+      margin-top: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.05);
+    }
+    footer {
+      background-color: #f2f2f2;
+      text-align: center;
+      padding: 30px;
+      font-size: 14px;
+    }
+    .cta-button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 30px;
+      font-size: 18px;
+      background-color: #0077cc;
+      color: #fff;
       border-radius: 8px;
       text-decoration: none;
-      display: inline-block;
-      margin-top: 20px;
-      cursor: pointer;
     }
-
-    .botao:hover {
-      background-color: #c62828;
+    .cta-button:hover {
+      background-color: #005fa3;
     }
   </style>
 </head>
 <body>
+  <header>
+    <img src="logo-superatento.png" alt="Logo Superatento" class="logo">
+    <h1>Superatento Rastreamento</h1>
+    <p class="intro"><strong>Cuidar do que mais amamos.</strong> Pessoas, pets, motos, bicicletas e muito mais — todos protegidos com a Superatento.</p>
+    <a class="cta-button" href="https://wa.me/5551991191175?text=Olá,%20quero%20saber%20mais%20sobre%20o%20rastreador%20Superatento!" target="_blank">Falar com a Superatento</a>
+  </header>
 
-  <!-- LOGO SUPERATENTO -->
-  <img src="logo-superatento.png" alt="Logo SUPERATENTO" class="logo">
+  <section>
+    <h2>Benefícios</h2>
+    <ul>
+      <li>✔️ Rastreamento em tempo real 24h por dia</li>
+      <li>✔️ Ideal para pessoas, pets, motos, bicicletas e objetos</li>
+      <li>✔️ Acesso fácil pelo celular ou computador</li>
+      <li>✔️ Serviço com suporte humanizado</li>
+      <li>✔️ Instalação simples e rápida</li>
+    </ul>
+  </section>
 
-  <div class="container">
-    <h1>Chegou o SUPERATENTO NT40!</h1>
-    <p>Rastreie o que mais importa com precisão, segurança e praticidade.</p>
-    <p>Ideal para <strong>pessoas, pets, mochilas, veículos, idosos ou crianças</strong>.</p>
-    <p>✅ Rastreamento em tempo real via aplicativo<br>
-       ✅ Muito mais eficiente que tags comuns e celulares<br>
-       ✅ Compacto, leve, com excelente custo-benefício<br>
-       ✅ Bateria duradoura e alerta de movimento</p>
+  <section>
+    <h2>Como Funciona?</h2>
+    <p>Basta adquirir a assinatura e você receberá um rastreador portátil pronto para uso. Com o app, você acompanha em tempo real a localização de tudo que ama. Simples, rápido e eficiente.</p>
+  </section>
 
-    <a class="botao" href="https://wa.me/5551991191175?text=Olá!%20Tenho%20interesse%20no%20rastreador%20SUPERATENTO%20NT40.%20Pode%20me%20explicar%3F&utm_source=github&utm_medium=site&utm_campaign=pre_venda">Fale Agora via WhatsApp</a>
-  </div>
+  <section>
+    <h2>Planos e Preços</h2>
+    <div class="plans">
+      <div class="plan">
+        <h3>Assinatura Econômica</h3>
+        <p><strong>R$ 90/mês</strong></p>
+        <p>Você já tem o rastreador. Inclui acesso total ao sistema Superatento.</p>
+      </div>
+      <div class="plan">
+        <h3>Assinatura Completa</h3>
+        <p><strong>R$ 139/mês</strong></p>
+        <p>Inclui rastreador físico + plataforma de rastreamento em tempo real.</p>
+      </div>
+    </div>
+  </section>
 
+  <section>
+    <h2>Depoimentos</h2>
+    <div class="testimonial">🚗 “Uso na minha moto e é muito seguro. Recomendo!” – André M.</div>
+    <div class="testimonial">🐶 “Consigo saber onde meu pet está sempre. Tranquilidade total.” – Carla R.</div>
+    <div class="testimonial">👨‍👩‍👧 “Com meus pais idosos, ter esse rastreamento é uma paz de espírito.” – Luciana A.</div>
+  </section>
+
+  <section>
+    <h2>Perguntas Frequentes</h2>
+    <div class="faq-item"><strong>O rastreador precisa de chip?</strong><br> Sim, ele já vai com chip embutido configurado.</div>
+    <div class="faq-item"><strong>Funciona em qualquer lugar?</strong><br> Sim, com cobertura nacional.</div>
+    <div class="faq-item"><strong>Tem fidelidade?</strong><br> Não. A assinatura é mensal, você cancela quando quiser.</div>
+  </section>
+
+  <footer>
+    <p>© 2025 Superatento – Serviço de Segurança Aumentada</p>
+    <p>Contato: (51) 99119-1175 | Instagram: @superatento</p>
+  </footer>
 </body>
 </html>
