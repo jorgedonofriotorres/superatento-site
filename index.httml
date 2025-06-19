@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pré-venda - SUPERATENTO NT40</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .logo {
+      max-width: 300px;
+      margin: 20px auto;
+    }
+
+    .container {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      max-width: 600px;
+      margin: auto;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      color: #e53935;
+      font-size: 24px;
+    }
+
+    p {
+      color: #333;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .botao {
+      background-color: #e53935;
+      color: white;
+      padding: 15px 25px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+
+    .botao:hover {
+      background-color: #c62828;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- LOGO SUPERATENTO -->
+  <img src="logo-superatento.png" alt="Logo SUPERATENTO" class="logo">
+
+  <div class="container">
+    <h1>Chegou o SUPERATENTO NT40!</h1>
+    <p>Rastreie o que mais importa com precisão, segurança e praticidade.</p>
+    <p>Ideal para <strong>pessoas, pets, mochilas, veículos, idosos ou crianças</strong>.</p>
+    <p>✅ Rastreamento em tempo real via aplicativo<br>
+       ✅ Muito mais eficiente que tags comuns e celulares<br>
+       ✅ Compacto, leve, com excelente custo-benefício<br>
+       ✅ Bateria duradoura e alerta de movimento</p>
+
+    <a class="botao" href="https://wa.me/5551991191175?text=Olá!%20Tenho%20interesse%20no%20rastreador%20SUPERATENTO%20NT40.%20Pode%20me%20explicar%3F&utm_source=github&utm_medium=site&utm_campaign=pre_venda">Fale Agora via WhatsApp</a>
+  </div>
+
+</body>
+</html>
