@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Confirmação de Cadastro - Superatento</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f7fa;
+      margin: 0; padding: 0;
+      text-align: center;
+    }
+    .container {
+      max-width: 600px;
+      margin: 60px auto;
+      padding: 40px;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    .logo {
+      max-width: 180px;
+      margin-bottom: 30px;
+    }
+    h1 {
+      font-size: 26px;
+      color: #333;
+    }
+    p {
+      font-size: 18px;
+      margin-top: 20px;
+      margin-bottom: 30px;
+      color: #555;
+    }
+    .whatsapp-button {
+      display: inline-block;
+      padding: 14px 24px;
+      background-color: #25D366;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    .whatsapp-button:hover {
+      background-color: #1ebe57;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="LOGO-SUPERATENTO-AQUI.png" alt="Logo Superatento" class="logo" />
+    <h1>🎉 Parabéns pela sua escolha!</h1>
+    <p>Clique abaixo para falar com a equipe Superatento.</p>
+
+    <a href="#" id="whatsapp-link" class="whatsapp-button" target="_blank">Falar agora pelo WhatsApp</a>
+  </div>
+
+  <script>
+    // Captura parâmetro "nome" da URL
+    const params = new URLSearchParams(window.location.search);
+    const nome = params.get("nome") || "";
+
+    // Mensagem personalizada
+    const mensagem = `Olá, me cadastrei e quero saber mais! Meu nome é ${nome}`;
+    const numeroWhatsApp = "5551991191175";
+
+    // Monta link final
+    const link = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensagem)}`;
+    document.getElementById("whatsapp-link").href = link;
+  </script>
+</body>
+</html>
